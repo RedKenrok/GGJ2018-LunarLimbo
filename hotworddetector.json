@@ -1,0 +1,17 @@
+{
+	"models": [{
+		"file": "./hotworddetector/alexa.pmdl",
+		"hotwords": "alexa",
+		"sensitivity": "0.65"
+	  }, {
+		"file": "./hotworddetector/ava.pmdl",
+		"hotwords": "ava",
+		"sensitivity": "0.55"
+	  }, {
+		"file": "./hotworddetector/christina.pmdl",
+		"hotwords": "christina",
+		"sensitivity": "0.55"
+	  }
+	],
+	"recorder": {}
+}

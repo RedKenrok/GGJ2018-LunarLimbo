@@ -1,0 +1,94 @@
+{
+	"player": {
+		"effect": "static.ogg",
+		"feedback": "bleep.ogg",
+		"prefix": "radio",
+		"suffix": "radio"
+	},
+	"alexa": {
+		"hotwords": [ "alexa" ],
+		"language": "de-DE",
+		"pitch": 0.45,
+		"speed": 0.55,
+		"volume": 1,
+		"confirmation": [
+			"Copy",
+			"Hello",
+			"Here",
+			"Hi",
+			"Listening",
+			"Loud and clear",
+			"Roger"
+		],
+		"fail": {
+			"addressing": [
+				"You need one of the others, boss.",
+				"Sorry boss, can’t help you."
+			],
+			"threshold": [
+				"I don’t understand, boss.",
+				"Try again, I didn’t understand, boss."
+			],
+			"transcript": [
+				"Sorry boss, no idea what you tried to send me.",
+				"I didn’t quite get that, boss."
+			]
+		}
+	},
+	"ava": {
+		"hotwords": [ "ava" ],
+		"language": "en-US",
+		"pitch": 0.5,
+		"speed": 0.45,
+		"volume": 1,
+		"effect": "office.ogg",
+		"confirmation": [
+			"Copy",
+			"Hello",
+			"Listening",
+			"Roger"
+		],
+		"fail": {
+			"addressing": [
+				"I can’t help you right now.",
+				"I think you should be talking to your team, not me."
+			],
+			"threshold": [
+				"I don’t know what you need from me.",
+				"I don’t quite understand what you mean."
+			],
+			"transcript": [
+				"I didn’t receive what you tried to transmit.",
+				"Please try again."
+			]
+		}
+	},
+	"christina": {
+		"hotwords": [ "christina" ],
+		"language": "en-GB",
+		"pitch": 0.53,
+		"speed": 0.5,
+		"volume": 1,
+		"confirmation": [
+			"Copy",
+			"Here",
+			"Listening",
+			"Loud and clear",
+			"Roger"
+		],
+		"fail": {
+			"addressing": [
+				"I’m pretty sure you didn’t mean to transmit that to me, commander.",
+				"I’m not the one you need right now."
+			],
+			"threshold": [
+				"Come again.",
+				"I don’t know what you want from me."
+			],
+			"transcript": [
+				"Commander, I missed that message.",
+				"Interference. Send again, please."
+			]
+		}
+	}
+}
